@@ -18,12 +18,12 @@ export default function HomeScreen() {
   // Sample property data
   const property = {
     id: '1',
-    name: 'Residencial Flores, Apt 302',
-    address: 'Rua das Acácias, 123, Jardim Botânico',
+    name: 'Residencial Flores, Nº 302',
+    address: 'Rua das Acácias, Xique-Xique, Jupi-PE',
     imageUrl: 'https://images.pexels.com/photos/1396122/pexels-photo-1396122.jpeg',
-    bedrooms: 2,
-    bathrooms: 1,
-    area: 72,
+    bedrooms: 4,
+    bathrooms: 2,
+    area: 147,
     rent: 1850.00,
   };
 
