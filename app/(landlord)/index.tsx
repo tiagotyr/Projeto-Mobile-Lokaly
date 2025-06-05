@@ -171,7 +171,7 @@ export default function LandlordHomeScreen() {
           
           <TouchableOpacity 
             style={styles.viewAllButton}
-            onPress={() => router.push('/(landlord)/complaints')}
+            onPress={() => router.push}
           >
             <Text style={styles.viewAllText}>Ver Todos</Text>
             <ChevronRight size={16} color={COLORS.primary} />
@@ -210,7 +210,7 @@ export default function LandlordHomeScreen() {
           
           <TouchableOpacity 
             style={styles.viewAllButton}
-            onPress={() => router.push('/(landlord)/bills')}
+            onPress={() => router.push}
           >
             <Text style={styles.viewAllText}>Ver Todos</Text>
             <ChevronRight size={16} color={COLORS.primary} />
@@ -223,7 +223,7 @@ export default function LandlordHomeScreen() {
             <Text style={styles.sectionTitle}>Chamados Recentes</Text>
             <TouchableOpacity 
               style={styles.viewAllButtonSmall}
-              onPress={() => router.push('/(landlord)/complaints')}
+              onPress={() => router.push}
             >
               <Text style={styles.viewAllText}>Ver Todos</Text>
               <ChevronRight size={16} color={COLORS.primary} />
