@@ -144,7 +144,7 @@ export default function ProfileScreen() {
           </View>
           
           <Text style={styles.welcomeText}>Olá, {user?.name}</Text>
-          <Text style={styles.userTypeText}>Morador</Text>
+          <Text style={styles.userTypeText}>Locatário</Text>
           
           <Button
             title={isEditing ? "Salvar Alterações" : "Editar Perfil"}
