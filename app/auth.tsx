@@ -25,10 +25,10 @@ export default function AuthScreen() {
     
     // Set default credentials based on role
     if (role === 'tenant') {
-      setEmail('morador@example.com');
+      setEmail('locatario@example.com');
       setPassword('123456');
     } else {
-      setEmail('locatario@example.com');
+      setEmail('locador@example.com');
       setPassword('123456');
     }
     
@@ -104,7 +104,7 @@ export default function AuthScreen() {
               styles.roleText,
               selectedRole === 'landlord' && styles.roleTextSelected
             ]}>
-              Sou Locatário
+              Sou Locador
             </Text>
           </TouchableOpacity>
           
@@ -122,7 +122,7 @@ export default function AuthScreen() {
               styles.roleText,
               selectedRole === 'tenant' && styles.roleTextSelected
             ]}>
-              Sou Morador
+              Sou Locatário
             </Text>
           </TouchableOpacity>
         </View>
