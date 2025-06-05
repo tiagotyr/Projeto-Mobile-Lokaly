@@ -97,7 +97,7 @@ export default function LandlordHomeScreen() {
 
   return (
     <SafeAreaView style={styles.container} edges={['top']}>
-      <Header title="Painel do Locatário" showNotifications onNotificationsPress={() => alert('Notificações')} />
+      <Header title="Painel do Locador" showNotifications onNotificationsPress={() => alert('Notificações')} />
       
       <ScrollView
         style={styles.scrollView}

@@ -146,7 +146,7 @@ export default function LandlordProfileScreen() {
           </View>
           
           <Text style={styles.welcomeText}>Olá, {user?.name}</Text>
-          <Text style={styles.userTypeText}>Locatário</Text>
+          <Text style={styles.userTypeText}>Locador</Text>
           
           <Button
             title={isEditing ? "Salvar Alterações" : "Editar Perfil"}
